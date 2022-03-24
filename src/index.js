@@ -1,17 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import Footer from "./components/Footer";
+import ServerCountdown from "./components/ServerCountdown";
+import Title from "./components/Title";
+import "./index.css";
+import moment from "moment";
+
+const timeAsia = moment('2022-03-30 04:00:00 UTC+8');
+const timeAmerica = moment('2022-03-30 17:00:00 UTC+8');
+const timeEurope = moment('2022-03-30 11:00:00 UTC+8');
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <div className="min-h-screen bg-no-repeat bg-cover bg-fixed bg-center saturate-150 img">
+    
+    <Title />
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <ServerCountdown server={"🌸 America"} time={timeAmerica} color={0} />
+
+    <ServerCountdown server={"🌷 Europe"} time={timeEurope} color={1} />
+
+    <ServerCountdown server={"🌺 Asia"} time={timeAsia} color={2} />
+
+    {/* <ServerCountdown server={"💐 SAR"} color={3} /> */}
+
+    <Footer />
+
+  </div>,
+  document.getElementById("root")
+);
