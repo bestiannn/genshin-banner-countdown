@@ -6,9 +6,9 @@ import Title from "./components/Title";
 import "./index.css";
 import moment from "moment";
 
-const timeAsia = moment('2022-03-30 04:00:00 UTC+8');
-const timeAmerica = moment('2022-03-30 17:00:00 UTC+8');
-const timeEurope = moment('2022-03-30 11:00:00 UTC+8');
+const timeAsia = moment('2022-03-29 15:00:00 UTC+8');
+const timeAmerica = moment('2022-03-30 04:00:00 UTC+8');
+const timeEurope = moment('2022-03-29 22:00:00 UTC+8');
 
 
 ReactDOM.render(
