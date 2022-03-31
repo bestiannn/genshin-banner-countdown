@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({ artist, linkArtist }) => {
   return (
-    <p className='mt-16 pb-10 text-3xl text-white text-center'>🎨 Art by: <a className='hover:underline hover:decoration-white' href="https://twitter.com/anna_drw01" target="_blank" rel="noreferrer">@anna_drw01</a></p>
+    <p className='w-full md:w-1/2 2xl:w-1/3 mx-auto mt-16 py-5 text-3xl bg-gradient-to-r from-fuchsia-400/20 to-fuchsia-400/70 text-white text-center rounded-xl'>🎨 Art by: <a className='hover:underline hover:decoration-white' href={linkArtist} target="_blank" rel="noreferrer">{artist}</a></p>
   )
 }
 
