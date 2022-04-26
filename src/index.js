@@ -18,7 +18,7 @@ const artist = "@Dogface59085274"
 const linkArtist = "https://twitter.com/Dogface59085274"
 
 ReactDOM.render(
-  <div className="min-h-screen bg-no-repeat bg-cover bg-fixed bg-[center_top_-10rem] saturate-150 img">
+  <div className="min-h-screen bg-no-repeat bg-cover bg-fixed bg-center md:bg-[center_top_-10rem] saturate-150 img">
     
     <Title title={title} />
 
