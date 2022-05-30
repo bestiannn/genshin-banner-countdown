@@ -15,8 +15,8 @@ const title = "Yelan Banner Countdown"
 
 // Time is obtained from asia banner
 const timeAsia = moment('2022-05-31 11:00:00 UTC+8');
-const timeEurope = moment(timeAsia).add(5, 'hours');
-const timeAmerica = moment(timeAsia).add(12, 'hours');
+const timeEurope = moment(timeAsia)//.add(5, 'hours');
+const timeAmerica = moment(timeAsia)//.add(12, 'hours');
 
 const artist = "@Dogface59085274"
 const linkArtist = "https://twitter.com/Dogface59085274"
