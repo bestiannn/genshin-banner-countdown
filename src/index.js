@@ -28,9 +28,9 @@ ReactDOM.render(
 
     <ServerCountdown server={"👹 America"} time={timeAmerica} color={0} />
 
-    <ServerCountdown server={"👺 Europe"} time={timeEurope} color={1} />
+    <ServerCountdown server={"🐯 Europe"} time={timeEurope} color={1} />
 
-    <ServerCountdown server={"🐯 Asia"} time={timeAsia} color={2} />
+    <ServerCountdown server={"👺 Asia"} time={timeAsia} color={2} />
     
     <Footer artist={artist} linkArtist={linkArtist} />
 
