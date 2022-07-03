@@ -1,18 +1,19 @@
 import Countdown from "react-countdown";
-import { containerClass, serverClass, valueClass } from "./ClassesForTime";
+import TimeComponent from "./TimeComponent";
 
-const days = ({ days }) => {
+const render = ({ days }) => {
+    return (
+      <TimeComponent>{ days >= 10 ? days : '0' + days }</TimeComponent>
+    )
+  };
+
+const Days = ({ time }) => {
   return (
-    <div className={containerClass}>
-      <p className={valueClass}>{ days >= 10 ? days : '0' + days }</p>
-       {/* <p className={valueClass}>xd</p> */}
-      <span className={serverClass}>days</span>
+    <div>
+      <TimeComponent date={time} type={"day"} />
+      <p>days</p>
     </div>
-  );
-};
+  )
+}
 
-const Days = ({time}) => {
-  return <Countdown date={time} renderer={days} />;
-};
-
-export default Days;
+export default Days

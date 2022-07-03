@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      "backgroundPosition":{
+        "custom": "center left 36%"
+      }
+    },
   },
   plugins: [],
 }

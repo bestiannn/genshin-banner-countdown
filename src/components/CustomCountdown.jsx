@@ -1,17 +1,13 @@
-import moment from "moment";
-import Days from "./times/Days";
-import Hours from "./times/Hours";
-import Minutes from "./times/Minutes";
-import Seconds from "./times/Seconds";
+import TimeComponent from "./times/TimeComponent";
 
 const CustomCountdown = ({time}) => {
 
   return (
     <div className="flex justify-evenly text-center select-none">
-      <Days time={time} />
-      <Hours time={time} />
-      <Minutes time={time} />
-      <Seconds time={time} />
+      <TimeComponent type={"day"} time={time} />
+      <TimeComponent type={"hour"} time={time} />
+      <TimeComponent type={"minute"} time={time} />
+      <TimeComponent type={"second"} time={time} />
     </div>
   );
 };

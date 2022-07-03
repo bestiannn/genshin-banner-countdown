@@ -7,33 +7,36 @@ import "./index.css";
 import moment from "moment";
 
 // Important Data
-const title = "Arataki Itto Banner Rerun Countdown"
+const title = "Kazuha, Klee and Heizou Banner Countdown";
 
-// Data
-// https://www.pockettactics.com/genshin-impact/update#:~:text=The%20Genshin%20Impact%202.7%20livestream,12%3A00%20UTC%2D4.
-// https://game8.co/games/Genshin-Impact/archives/372798
+// Time is obtained from asia banner server
+const timeAsia = moment.utc("2022-07-12T16:00:00+08:00");
+const timeEurope = moment(timeAsia).add(6, "hours");
+const timeAmerica = moment(timeAsia).add(12, "hours");
+// const timeAsia = moment("2022-07-12 16:00:00 UTC+8");
+// const timeEurope = moment(timeAsia).add(6, "hours");
+// const timeAmerica = moment(timeAsia).add(12, "hours");
 
-// Time is obtained from asia banner
-const timeAsia = moment('2022-06-21 19:00:00 UTC+8');
-const timeEurope = moment(timeAsia).add(6, 'hours');
-const timeAmerica = moment(timeAsia).add(12, 'hours');
-
-const artist = "@kkn0kk"
-const linkArtist = "https://twitter.com/kkn0kk"
+const artist = "@MattBellamont";
+const linkArtist = "https://twitter.com/MattBellamont/";
 
 ReactDOM.render(
-  <div className="min-h-screen bg-no-repeat bg-cover bg-fixed bg-center saturate-150 img">
-    
-    <Title title={title} />
+  <div className="img min-h-screen bg-no-repeat bg-cover bg-fixed bg-custom">
+    <div className="bg-black h-screen bg-opacity-50 w-screen fixed z-0"></div>
 
-    <ServerCountdown server={"👹 America"} time={timeAmerica} color={0} />
+    <div className="text-white text-center min-h-screen w-screen fixed z-10 top-0 bottom-0 overflow-x-hidden overflow-y-visible pb-36">
+      
+      <Title title={title} />
 
-    <ServerCountdown server={"🐯 Europe"} time={timeEurope} color={1} />
+      <ServerCountdown server={"🍁 America"} time={timeAmerica} />
 
-    <ServerCountdown server={"👺 Asia"} time={timeAsia} color={2} />
-    
-    <Footer artist={artist} linkArtist={linkArtist} />
+      <ServerCountdown server={"💣 Europe"} time={timeEurope} />
 
+      <ServerCountdown server={"📗 Asia"} time={timeAsia} />
+
+      <Footer artist={artist} linkArtist={linkArtist} />
+
+    </div>
   </div>,
   document.getElementById("root")
 );

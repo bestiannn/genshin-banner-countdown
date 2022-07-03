@@ -1,9 +1,23 @@
-import React from 'react'
+import React from "react";
 
 const Footer = ({ artist, linkArtist }) => {
   return (
-    <p className='w-full md:w-1/2 2xl:w-1/3 mx-auto mt-16 py-5 text-3xl bg-gradient-to-b from-yellow-400/50 to-yellow-600/70 text-white text-center rounded-xl'>🎨 Art by: <a className='hover:underline hover:decoration-white' href={linkArtist} target="_blank" rel="noreferrer">{artist}</a></p>
-  )
-}
+    <div className="fixed bottom-5 w-full">
+      <div className="flex justify-center">
+        <p className="w-56 lg:w-1/2 text-xl lg:text-3xl font-bold bg-black bg-opacity-60 rounded-2xl py-3 px-5 border-6 border-black">
+          🎨 Art by: {" "}
+          <a
+            className="hover:underline hover:decoration-white"
+            href={linkArtist}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {artist}
+          </a>
+        </p>
+      </div>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
