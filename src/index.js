@@ -10,9 +10,12 @@ import moment from "moment";
 const title = "Kazuha, Klee and Heizou Banner Countdown";
 
 // Time is obtained from asia banner server
-const timeAsia = moment.utc("2022-07-12T16:00:00+08:00");
-const timeEurope = moment(timeAsia).add(6, "hours");
-const timeAmerica = moment(timeAsia).add(12, "hours");
+const timeAmerica = moment.utc("2022-07-13T11:00:00+08:00");
+const timeEurope = moment(timeAmerica).subtract(6, "hours");
+const timeAsia = moment(timeAmerica).subtract(12, "hours");
+// const timeAsia = moment.utc("2022-07-12T16:00:00+08:00");
+// const timeEurope = moment(timeAsia).add(6, "hours");
+// const timeAmerica = moment(timeAsia).add(12, "hours");
 // const timeAsia = moment("2022-07-12 16:00:00 UTC+8");
 // const timeEurope = moment(timeAsia).add(6, "hours");
 // const timeAmerica = moment(timeAsia).add(12, "hours");
