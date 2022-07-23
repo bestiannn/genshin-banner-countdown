@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       "backgroundPosition":{
-        "custom": "center left 36%"
+        "mobile": "center left 20%",
+        "tablet": "center left 10%"
       }
     },
   },
