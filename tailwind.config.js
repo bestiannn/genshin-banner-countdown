@@ -4,9 +4,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      "backgroundPosition":{
-        "mobile": "center left 20%",
-        "tablet": "center left 10%"
+      "backgroundImage":{
+        "wallpaper": "url('/public/tignari.jpg')"
       }
     },
   },
