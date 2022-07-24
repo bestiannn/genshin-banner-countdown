@@ -20,11 +20,11 @@ const timeAmerica = moment(timeAsia).add(13, "hours");
 // const timeEurope = moment(timeAsia).add(6, "hours");
 // const timeAmerica = moment(timeAsia).add(12, "hours");
 
-const artist = "@MattBellamont";
-const linkArtist = "https://twitter.com/MattBellamont/";
+const artist = "@yolanda315732";
+const linkArtist = "https://twitter.com/yolanda315732";
 
 ReactDOM.render(
-  <div className="img min-h-screen bg-no-repeat bg-cover bg-fixed bg-mobile md:bg-tablet xl:bg-center">
+  <div className="img min-h-screen bg-no-repeat bg-cover bg-fixed bg-center">
     <div className="bg-black h-screen bg-opacity-10 w-screen fixed z-0"></div>
 
     <div className="text-white text-center min-h-screen w-screen fixed z-10 top-0 bottom-0 overflow-x-hidden overflow-y-visible pb-36">
