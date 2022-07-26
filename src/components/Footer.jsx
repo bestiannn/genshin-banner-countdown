@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = ({ artist, linkArtist }) => {
   return (
-    <div className="fixed bottom-0">
-      <div className="bg-black">
+    <div className="">
+      <div className="">
         <p className="">
           🎨 Art by:{" "}
           <a className="" href={linkArtist} target="_blank" rel="noreferrer">

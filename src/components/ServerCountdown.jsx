@@ -3,7 +3,7 @@ import Server from "./Server";
 
 const ServerCountdown = ({ server, time }) => {
   return (
-    <div className="">
+    <div className="my-20">
       <CustomCountdown time={time} />
       <Server server={server} />
     </div>

@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Footer from "./components/Footer";
 import ServerCountdown from "./components/ServerCountdown";
-import Title from "./components/Title";
+import Header from "./components/Header";
 import "./index.css";
 import moment from "moment";
 
@@ -20,16 +20,20 @@ const artist = "@MattBellamont";
 const linkArtist = "https://twitter.com/MattBellamont/";
 
 ReactDOM.render(
-  <div className="bg-wallpaper h-screen bg-no-repeat bg-cover bg-fixed bg-center text-white text-center">
-    <Title title={title} subTitle={subTitle} />
+  <div className="bg-wallpaper min-h-screen bg-no-repeat bg-cover bg-fixed bg-center">
+    <div className="text-white text-center w-full min-h-screen bg-black bg-opacity-50 flex flex-col justify-between">
+      <Header title={title} subTitle={subTitle} />
 
-    <ServerCountdown server={"🎆 America"} time={timeAmerica} />
+      <div>
+        <ServerCountdown server={"🎆 America"} time={timeAmerica} />
 
-    <ServerCountdown server={"🎉 Europe"} time={timeEurope} />
+        <ServerCountdown server={"🎉 Europe"} time={timeEurope} />
 
-    <ServerCountdown server={"🎇 Asia"} time={timeAsia} />
+        <ServerCountdown server={"🎇 Asia"} time={timeAsia} />
+      </div>
 
-    <Footer artist={artist} linkArtist={linkArtist} />
+      <Footer artist={artist} linkArtist={linkArtist} />
+    </div>
   </div>,
   document.getElementById("root")
 );
