@@ -2,7 +2,7 @@ import React from 'react'
 
 const Server = ({server}) => {
   return (
-    <h2 className="">{server}</h2>
+    <h2 className="mb-5">{server}</h2>
   )
 }
 

@@ -1,7 +1,6 @@
 import TimeComponent from "./times/TimeComponent";
 
-const CustomCountdown = ({time}) => {
-
+const CustomCountdown = ({ time }) => {
   return (
     <div className="flex justify-center">
       <TimeComponent type={"day"} time={time} />

@@ -16,15 +16,20 @@ const timeAsia = moment.utc("2022-08-02T18:00:00+08:00");
 const timeEurope = moment(timeAsia).add(7, "hours");
 const timeAmerica = moment(timeAsia).add(13, "hours");
 
-const artist = "@MattBellamont";
-const linkArtist = "https://twitter.com/MattBellamont/";
+const artistData = {
+  name: "Matt Bellamont",
+  twitter: "https://twitter.com/MattBellamont/",
+  pixiv: "https://www.pixiv.net/en/artworks/99334789",
+};
+
+// refactor this later
 
 ReactDOM.render(
-  <div className="bg-wallpaper min-h-screen bg-no-repeat bg-cover bg-fixed bg-center">
-    <div className="text-white text-center w-full min-h-screen bg-black bg-opacity-50 flex flex-col justify-between">
-      <Header title={title} subTitle={subTitle} />
+  <div className="min-h-screen bg-wallpaper bg-cover bg-fixed bg-center bg-no-repeat">
+    <div className="flex min-h-screen w-full flex-col justify-between bg-black bg-opacity-50 py-5 text-center text-white">
+      <Header title={title} subTitle={subTitle} artistData={artistData} />
 
-      <div>
+      <div className="select-none text-lg font-bold">
         <ServerCountdown server={"🎆 America"} time={timeAmerica} />
 
         <ServerCountdown server={"🎉 Europe"} time={timeEurope} />
@@ -32,7 +37,7 @@ ReactDOM.render(
         <ServerCountdown server={"🎇 Asia"} time={timeAsia} />
       </div>
 
-      <Footer artist={artist} linkArtist={linkArtist} />
+      <Footer />
     </div>
   </div>,
   document.getElementById("root")

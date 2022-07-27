@@ -1,21 +1,19 @@
-import React from "react";
+import { FaGithub } from "react-icons/fa";
 
-const Footer = ({ artist, linkArtist }) => {
+const Footer = () => {
   return (
-    <div className="">
-      <div className="">
-        <p className="">
-          🎨 Art by:{" "}
-          <a className="" href={linkArtist} target="_blank" rel="noreferrer">
-            {artist}
-          </a>
-        </p>
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-          sapiente autem corrupti, aliquam nobis sunt!
-        </span>
-        <span>GITHUB</span>
-      </div>
+    <div className="flex flex-col gap-3">
+      <a
+        href="https://github.com/Bestianbluns/genshin-banner-countdown"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaGithub className="inline text-xl" />{" "}
+        <p className="underline decoration-solid inline">Repository of this project</p>
+      </a>
+      <p className="text-sm">
+        The information on this website is delivered by unoficial sources. All of these timers are not guaranteed to be correct and they can be changed at any time. Use this information only for reference.
+      </p>
     </div>
   );
 };
