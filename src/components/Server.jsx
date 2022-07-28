@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Server = ({server}) => {
+const Server = ({ server }) => {
   return (
-    <h2 className="mb-5">{server}</h2>
-  )
-}
+    <h2 className="mb-5 text-lg font-extrabold lg:text-xl xl:text-2xl">
+      {server}
+    </h2>
+  );
+};
 
-export default Server
+export default Server;

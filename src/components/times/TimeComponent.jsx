@@ -16,7 +16,7 @@ const TimeComponent = ({ type, time }) => {
         ? logicMinutes
         : logicSeconds;
     return (
-      <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white">
+      <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white text-lg md:h-16 md:w-16 lg:text-xl xl:h-20 xl:w-20 xl:text-2xl">
         {finalLogic}
       </div>
     );
@@ -32,7 +32,7 @@ const TimeComponent = ({ type, time }) => {
       : "Seconds";
 
   return (
-    <div className="mx-5 ">
+    <div className="mx-5">
       <div className="flex justify-center">
         <Countdown date={time} renderer={render} />
       </div>
