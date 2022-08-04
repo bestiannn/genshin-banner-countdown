@@ -1,4 +1,4 @@
-import TimeComponent from "./times/TimeComponent";
+import TimeComponent from "./Time Component/TimeComponent";
 
 const CustomCountdown = ({ time }) => {
   return (
