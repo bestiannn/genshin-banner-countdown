@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       "backgroundImage":{
-        "wallpaper": "url('/public/Tignari_Luci0_52.jpg')"
+        "wallpaper": "url('/public/Tignari_Luci0.jpg')"
       }
     },
   },
