@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      "backgroundImage":{
+        "wallpaper": "url('/public/Tignari_Luci0_52.jpg')"
+      }
+    },
   },
   plugins: [],
 };

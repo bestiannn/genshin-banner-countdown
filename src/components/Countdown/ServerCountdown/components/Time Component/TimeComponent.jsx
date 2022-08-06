@@ -1,4 +1,5 @@
 import Countdown from "react-countdown";
+import { BsCheckCircle } from "react-icons/bs";
 
 const TimeComponent = ({ type, time }) => {
   const render = ({ days, hours, minutes, seconds }) => {
@@ -15,26 +16,25 @@ const TimeComponent = ({ type, time }) => {
         : type === "minute"
         ? logicMinutes
         : logicSeconds;
+
+    if (days === 0 && hours === 0 && minutes === 0 && seconds === 0) {
+      return (
+        <BsCheckCircle className="h-12 w-12 text-emerald-300 md:h-16 md:w-16 xl:h-20 xl:w-20" />
+      );
+    }
     return (
-      <div className="flex items-center justify-center font-bold rounded-full bg-black/30 border-2 border-white w-20 sm:w-28 h-20 sm:h-28 text-xl sm:text-3xl">
+      <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white text-lg md:h-16 md:w-16 lg:text-xl xl:h-20 xl:w-20 xl:text-2xl">
         {finalLogic}
       </div>
     );
   };
 
-  const typeTime =
-    type === "day"
-      ? "Days"
-      : type === "hour"
-      ? "Hours"
-      : type === "minute"
-      ? "Minutes"
-      : "Seconds";
-
   return (
-    <div>
-      <Countdown date={time} renderer={render} />
-      <p className="mt-1 sm:mt-3 text-base sm:text-xl">{typeTime}</p>
+    <div className="mx-5">
+      <div className="flex justify-center">
+        <Countdown date={time} renderer={render} />
+      </div>
+      <p className="mt-5 capitalize">{type + "s"}</p>
     </div>
   );
 };

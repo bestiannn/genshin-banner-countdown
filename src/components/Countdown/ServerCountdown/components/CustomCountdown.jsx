@@ -1,9 +1,8 @@
-import TimeComponent from "./times/TimeComponent";
+import TimeComponent from "./Time Component/TimeComponent";
 
-const CustomCountdown = ({time}) => {
-
+const CustomCountdown = ({ time }) => {
   return (
-    <div className="flex justify-evenly text-center select-none">
+    <div className="flex justify-center">
       <TimeComponent type={"day"} time={time} />
       <TimeComponent type={"hour"} time={time} />
       <TimeComponent type={"minute"} time={time} />
