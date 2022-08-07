@@ -3,7 +3,7 @@ import moment from "moment";
 const config = {
   // Header Data
   title: "Genshin Impact 3.0 Countdown",
-  subTitle: "Sumeru, Tighnari and Collei Banner Countdown",
+  subTitle: "Sumeru, Tighnari, Collei and Zhongli Banner Countdown",
 
   // Time Data
   // Time is obtained from asia banner server
