@@ -1,7 +1,7 @@
 import { SiTwitter, SiPixiv } from "react-icons/si";
 
 const Header = ({ title, subTitle, artistData }) => {
-  const { name, twitter, pixiv } = artistData;
+  const { name, pixiv } = artistData;
 
   return (
     <div className="">
@@ -14,9 +14,6 @@ const Header = ({ title, subTitle, artistData }) => {
         </p>
         <div className="mt-2 lg:mt-5 flex justify-center">
           <div className="grid auto-cols-max grid-flow-col gap-10">
-            <a href={twitter} target="_blank" rel="noopener noreferrer">
-              <SiTwitter />
-            </a>
             <a href={pixiv} target="_blank" rel="noopener noreferrer">
               <SiPixiv />
             </a>
