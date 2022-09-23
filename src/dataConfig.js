@@ -2,19 +2,19 @@ import moment from "moment";
 
 const config = {
   // Header Data
-  title: "Genshin Impact 3.0 Countdown",
-  subTitle: "Dori, Ganyu and Kokomi Banner Countdown",
+  title: "Genshin Impact 3.1 Countdown",
+  subTitle: "Cyno and Venti Banner Countdown",
 
   // Time Data
-  // Time is obtained from asia banner server
-  timeAsia: moment.utc("2022-09-09T18:00:00+08:00"),
-  timeEurope: moment.utc("2022-09-09T18:00:00+08:00").add(7, "hours"),
-  timeAmerica: moment.utc("2022-09-09T18:00:00+08:00").add(13, "hours"),
+  // sometimes the time is obtained from asia banner server
+  timeAsia: moment.utc("2022-09-27T23:00:00-04:00"),
+  timeEurope: moment.utc("2022-09-27T23:00:00-04:00"),
+  timeAmerica: moment.utc("2022-09-27T23:00:00-04:00"),
 
   // Artist Data
   artistData: {
-    name: "raywallin",
-    pixiv: "https://www.pixiv.net/en/users/19080275",
+    name: "",
+    pixiv: "",
   },
 };
 

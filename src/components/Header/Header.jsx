@@ -8,7 +8,7 @@ const Header = ({ title, subTitle, artistData }) => {
       <h1 className="text-xl lg:text-2xl font-bold">{title}</h1>
       <h2 className="text-lg lg:text-xl">{subTitle}</h2>
 
-      <div className="mt-5 text-lg lg:text-xl">
+      {/* <div className="mt-5 text-lg lg:text-xl">
         <p>
           Art by <span className="underline decoration-solid">{name}</span>
         </p>
@@ -19,7 +19,7 @@ const Header = ({ title, subTitle, artistData }) => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
