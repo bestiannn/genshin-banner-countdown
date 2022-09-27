@@ -7,9 +7,9 @@ const config = {
 
   // Time Data
   // sometimes the time is obtained from asia banner server
-  timeAsia: moment.utc("2022-09-27T23:00:00-04:00"),
-  timeEurope: moment.utc("2022-09-27T23:00:00-04:00"),
-  timeAmerica: moment.utc("2022-09-27T23:00:00-04:00"),
+  timeAsia: moment.utc("2022-09-28T11:00:00+08:00"),
+  timeEurope: moment.utc("2022-09-28T11:00:00+08:00"),
+  timeAmerica: moment.utc("2022-09-28T11:00:00+08:00"),
 
   // Artist Data
   artistData: {
