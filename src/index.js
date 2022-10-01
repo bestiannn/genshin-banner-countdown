@@ -11,7 +11,7 @@ const { title, subTitle, timeAsia, timeEurope, timeAmerica, artistData } =
   config;
 
 ReactDOM.render(
-  <div className="min-h-screen bg-wallpaper bg-cover bg-fixed bg-center bg-no-repeat">
+  <div className="min-h-screen bg-wallpaper bg-cover bg-fixed bg-mobile md:bg-desktop bg-no-repeat">
     <div className="flex min-h-screen w-full flex-col justify-between bg-black bg-opacity-50 py-5 text-center text-white">
       <Header title={title} subTitle={subTitle} artistData={artistData} />
 
