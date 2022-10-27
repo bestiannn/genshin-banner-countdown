@@ -3,7 +3,7 @@ import moment from "moment";
 const config = {
   // Header Data
   title: "Genshin Impact 3.2 Banner Countdown",
-  subTitle: "Nahida and Layla Banner Countdown",
+  subTitle: "Nahida Banner Countdown",
 
   // Time Data
   // sometimes the time finish first in the asian server
