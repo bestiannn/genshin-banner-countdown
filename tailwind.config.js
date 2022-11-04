@@ -3,11 +3,11 @@ module.exports = {
   theme: {
     backgroundPosition: {
       'mobile': 'center',
-      'desktop': 'center top 30%',
+      'desktop': 'center top 40%',
     },
     extend: {
       "backgroundImage":{
-        "wallpaper": "url('/public/Nahida-wallpaper.jpg')"
+        "wallpaper": "url('/public/Layla-wallpaper.jpg')"
       }
     },
   },
