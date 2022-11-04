@@ -19,7 +19,7 @@ const TimeComponent = ({ type, time }) => {
 
     if (days === 0 && hours === 0 && minutes === 0 && seconds === 0) {
       return (
-        <BsCheckCircle className="h-12 w-12 text-emerald-300 md:h-16 md:w-16 xl:h-20 xl:w-20" />
+        <BsCheckCircle className="h-12 w-12 text-sky-300 md:h-16 md:w-16 xl:h-20 xl:w-20" />
       );
     }
     return (
