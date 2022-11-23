@@ -3,11 +3,11 @@ module.exports = {
   theme: {
     backgroundPosition: {
       'mobile': 'center',
-      'desktop': 'center top 40%',
+      'desktop': 'center top 20%',
     },
     extend: {
       "backgroundImage":{
-        "wallpaper": "url('/public/Layla-wallpaper.jpg')"
+        "wallpaper": "url('/public/Scaramouche-Matt-Bellamont.png')"
       }
     },
   },
