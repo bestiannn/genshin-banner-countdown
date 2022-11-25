@@ -3,7 +3,7 @@ import moment from "moment";
 const config = {
   // Header Data
   title: "Genshin Impact 3.3 Banner Countdown",
-  subTitle: "Wanderer/Scaramouche Banner Countdown",
+  subTitle: "Wanderer/Scaramouche, Arataki Itto and Faruzan Banner Countdown",
 
   // Time Data
   // sometimes the time finish first in the asian server
