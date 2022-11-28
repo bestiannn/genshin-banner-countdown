@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        wallpaper: "url('./Scaramouche-Matt-Bellamont.png')",
+        wallpaper: "url('../Scaramouche-Matt-Bellamont.png')",
       },
     },
   },
