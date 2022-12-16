@@ -6,8 +6,8 @@ import Timers from "../components/Timers";
 export default function Home({ servers }) {
   return (
     <GlobalProvider servers={servers}>
-      <div className="bg-wallpaper bg-cover bg-fixed bg-center bg-no-repeat">
-        <div className="flex min-h-screen flex-col justify-between bg-black bg-opacity-60 text-white text-center">
+      <div className="bg-wallpaper bg-cover bg-fixed bg-center-wallpaper bg-no-repeat">
+        <div className="flex min-h-screen flex-col justify-between gap-20 bg-black bg-opacity-60 text-center text-white">
           <Header />
           <Timers />
           <Footer />
@@ -18,10 +18,25 @@ export default function Home({ servers }) {
 }
 
 export async function getServerSideProps() {
-  const hostUrl = process.env.HOST_URL || "http://localhost:5173";
+  let servers = {};
+  try {
+    const hostUrl = process.env.HOST_URL || "http://localhost:3000";
 
-  const res = await fetch(`${hostUrl}/api/actual`);
-  const servers = await res.json();
+    const res = await fetch(`${hostUrl}/api/actual`);
+    servers = await res.json();
+  } catch (error) {
+    servers = {
+      Asia: {
+        secondsLeft: 0,
+      },
+      Europe: {
+        secondsLeft: 0,
+      },
+      America: {
+        secondsLeft: 0,
+      },
+    };
+  }
 
   return {
     props: { servers },

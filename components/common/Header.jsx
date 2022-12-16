@@ -5,8 +5,8 @@ const Header = () => {
 
   return (
     <header>
-      <h1 className="text-2xl font-bold">{title}</h1>
-      <h2 className="text-lg">{subtitle}</h2>
+      <h1 className="text-xl font-bold md:text-2xl lg:text-3xl">{title}</h1>
+      <h2 className="text-base font-light md:text-xl lg:text-lg">{subtitle}</h2>
     </header>
   );
 };

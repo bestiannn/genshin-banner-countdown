@@ -9,6 +9,9 @@ module.exports = {
       backgroundImage: {
         wallpaper: "url('/Shogun-Raiden.png')",
       },
+      backgroundPosition: {
+        "center-wallpaper": "left 43% top 50%",
+      },
     },
   },
   plugins: [require("prettier-plugin-tailwindcss")],
