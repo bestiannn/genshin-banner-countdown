@@ -1,5 +1,19 @@
 {
-  "v2.3-2": {
+  "v3.4-1": {
+    "Asia": {
+      "time": "2023-01-17T23:00:00-05:00",
+      "maintenance": true
+    },
+    "Europe": {
+      "time": "2023-01-17T23:00:00-05:00",
+      "maintenance": true
+    },
+    "America": {
+      "time": "2023-01-17T23:00:00-05:00",
+      "maintenance": true
+    }
+  },
+  "v3.3-2": {
     "Asia": {
       "time": "2022-12-27T05:00:00-05:00",
       "maintenance": false

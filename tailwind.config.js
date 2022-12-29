@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        wallpaper: "url('/Shogun-Raiden.png')",
+        wallpaper: "url('/Alhaitham.jpg')",
       },
       backgroundPosition: {
-        "center-wallpaper": "left 43% top 50%",
+        "center-wallpaper": "left 50% top 50%",
       },
     },
   },

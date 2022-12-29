@@ -28,12 +28,15 @@ export async function getServerSideProps() {
     servers = {
       Asia: {
         secondsLeft: 0,
+        maintenance: false
       },
       Europe: {
         secondsLeft: 0,
+        maintenance: false
       },
       America: {
         secondsLeft: 0,
+        maintenance: false
       },
     };
   }
