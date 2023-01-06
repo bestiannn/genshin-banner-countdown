@@ -1,5 +1,8 @@
 {
   "title": "Genshin Impact 3.4 Banner Countdown",
-  "subtitle": "Alhaitham and Xiao Banner Countdown",
-  "link": "https://genshin-banner-countdown.netlify.app/"
+  "subtitle": "Alhaitham, Yaoyao and Xiao Banner Countdown",
+  "description": "Shogun Raiden and Kamisato Ayato Banner Countdown. Genshin Impact 3.3 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Alhaitham", "Yaoyao", "Xiao"],
+  "link": "https://genshin-banner-countdown.netlify.app/",
+  "colorPage": "#ccff33"
 }

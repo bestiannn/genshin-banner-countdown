@@ -1,28 +1,27 @@
 import Head from "next/head";
 import "../styles/globals.css";
+import Config from "../public/config.json";
 
 function MyApp({ Component, pageProps }) {
+  const { title, description, characters, colorPage } = Config;
+
   return (
     <>
       <Head>
         <meta charSet="utf-8" />
         <link rel="shortcut icon" href="/icon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#bdb2ff" />
+        <meta name="theme-color" content={colorPage} />
 
         {/* <!-- Primary Meta Tags --> */}
-        <title>Genshin 3.3 Banner Countdown</title>
-        <meta
-          name="title"
-          content="Genshin 3.3 Countdown - Raiden Shogun and Kamisato Ayato Countdown"
-        />
-        <meta
-          name="description"
-          content="Shogun Raiden and Kamisato Ayato Banner Countdown. Genshin Impact 3.3 Countdown in all servers. Countdown in America, Europe and Asia."
-        />
+        <title>{title}</title>
+        <meta name="title" content={title} />
+        <meta name="description" content={description} />
         <meta
           name="keywords"
-          content="Genshin, Impact, Banner, Rerun, Countdown, Raiden, Shogun, Kamisato, Ayato"
+          content={`Genshin, Impact, Banner, Countdown, Rerun, ${characters.join(
+            ", "
+          )}`}
         />
         <meta name="author" content="Bestianbluns" />
         <link rel="apple-touch-icon" href="/icon.png" />
@@ -33,11 +32,8 @@ function MyApp({ Component, pageProps }) {
           property="og:url"
           content="https://genshin-banner-countdown.netlify.app/"
         />
-        <meta property="og:title" content="Genshin Impact 3.3 Countdown" />
-        <meta
-          property="og:description"
-          content="Genshin Impact Banner Countdown, 3.3 Countdown."
-        />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={title} />
         <meta property="og:image" content="/banner.png" />
 
         {/* <!-- Twitter --> */}
@@ -46,11 +42,8 @@ function MyApp({ Component, pageProps }) {
           property="twitter:url"
           content="https://genshin-banner-countdown.netlify.app/"
         />
-        <meta property="twitter:title" content="Genshin Impact 3.3 Countdown" />
-        <meta
-          property="twitter:description"
-          content="Genshin Impact Banner Countdown, 3.3 Countdown."
-        />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={title} />
         <meta property="twitter:image" content="/banner.png" />
 
         {/* <!-- Google Search Console --> */}
