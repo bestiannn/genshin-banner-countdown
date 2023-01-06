@@ -1,12 +1,13 @@
-import { useContext } from "react";
-import { GlobalContext } from "./context/GlobalContext";
 import Countdown from "./Countdown";
 import ServerStatus from "./ServerStatus";
+import { useServersStore } from "./store/serversStore";
 import getSecondsLeft from "./utils/getSecondsLeft";
 
 const Timers = () => {
+  const { servers } = useServersStore();
+
   const { secondsLeftAmerica, secondsLeftEurope, secondsLeftAsia } =
-    getSecondsLeft(useContext(GlobalContext));
+    getSecondsLeft(servers);
 
   return (
     <main className="flex h-96 flex-col justify-between gap-5 xl:gap-10">
