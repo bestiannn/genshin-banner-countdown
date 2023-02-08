@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
           content="https://genshin-banner-countdown.netlify.app/"
         />
         <meta property="og:title" content={title} />
-        <meta property="og:description" content={title} />
+        <meta property="og:description" content={description} />
         <meta property="og:image" content="https://genshin-banner-countdown.netlify.app/banner.png" />
 
         {/* <!-- Twitter --> */}
@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
           content="https://genshin-banner-countdown.netlify.app/"
         />
         <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={title} />
+        <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content="https://genshin-banner-countdown.netlify.app/banner.png" />
 
         {/* <!-- Google Search Console --> */}
