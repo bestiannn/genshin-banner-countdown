@@ -16,7 +16,7 @@ This route returns a list with all the data of previous and current times in the
 This route returns the data of the current banner.
 
 
-## [/api/rss](https://genshin-banner-countdown.netlify.app/rss)
+## [/api/rss](https://genshin-banner-countdown.netlify.app/api/rss)
 
 This route returns the data of the current banner in RSS format.
 
