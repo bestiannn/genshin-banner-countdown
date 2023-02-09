@@ -1,8 +1,8 @@
 {
-  "title": "Genshin Impact 3.4 Banner Countdown",
-  "subtitle": "Yelan and Hu Tao Banner Countdown",
-  "description": "Yelan and Hu Tao Banner Countdown. Genshin Impact 3.4 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Yelan", "Hu Tao", "Xingqiu", "Ningguang", "Beidou"],
+  "title": "Genshin Impact 3.5 Banner Countdown",
+  "subtitle": "Dehya Banner Countdown",
+  "description": "Dehya Banner Countdown. Genshin Impact 3.5 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Dehya"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#a2d2ff"
+  "colorPage": "#ffa686"
 }
