@@ -2,7 +2,10 @@
 
 Web page hosted in https://genshin-banner-countdown.netlify.app/ that show a countdown timer for the next banner in genshin impact for each server.
 
-![web page screen](./.github/screen.png)
+
+<p align="center">
+    <img src="./.github/screen.png" />
+</p>
 
 ## API
 
