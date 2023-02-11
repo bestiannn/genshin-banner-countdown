@@ -4,7 +4,7 @@ Web page hosted in https://genshin-banner-countdown.netlify.app/ that show a cou
 
 
 <p align="center">
-    <img src="./.github/screen.png" />
+    <img src="./assets/screenshoot.png" />
 </p>
 
 ## API
