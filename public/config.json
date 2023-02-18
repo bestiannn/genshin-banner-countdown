@@ -1,8 +1,8 @@
 {
   "title": "Genshin Impact 3.5 Banner Countdown",
-  "subtitle": "Dehya Banner Countdown",
-  "description": "Dehya Banner Countdown. Genshin Impact 3.5 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Dehya"],
+  "subtitle": "Dehya and Cyno Banner Countdown",
+  "description": "Dehya and Cyno Banner Countdown. Genshin Impact 3.5 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Dehya", "Cyno"],
   "link": "https://genshin-banner-countdown.netlify.app/",
   "colorPage": "#ffa686"
 }
