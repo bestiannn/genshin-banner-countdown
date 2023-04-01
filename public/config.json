@@ -1,8 +1,8 @@
 {
-  "title": "Genshin Impact 3.5 Banner Countdown",
-  "subtitle": "Kamisato Ayaka, Shenhe and Mika Banner Countdown",
-  "description": "Kamisato Ayaka, Shenhe and Mika Banner Countdown. Genshin Impact 3.5 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Kamisato Ayaka", "Shenhe", "Mika"],
+  "title": "Genshin Impact 3.6 Banner Countdown",
+  "subtitle": "Nahida and Nilou Banner Countdown",
+  "description": "Nahida, and Nilou Banner Countdown. Genshin Impact 3.6 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Nahida", "Nilou"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#bde0fe"
+  "colorPage": "#adc178"
 }
