@@ -1,8 +1,8 @@
 {
   "title": "Genshin Impact 3.6 Banner Countdown",
-  "subtitle": "Nahida and Nilou Banner Countdown",
-  "description": "Nahida, and Nilou Banner Countdown. Genshin Impact 3.6 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Nahida", "Nilou"],
+  "subtitle": "Baizhu, Ganyu and Kaveh Banner Countdown",
+  "description": "Baizhu, Ganyu and Kaveh Banner Countdown. Genshin Impact 3.6 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Baizhu", "Ganyu", "Kaveh"],
   "link": "https://genshin-banner-countdown.netlify.app/",
   "colorPage": "#adc178"
 }
