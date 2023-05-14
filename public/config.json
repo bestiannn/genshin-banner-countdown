@@ -1,8 +1,8 @@
 {
-  "title": "Genshin Impact 3.6 Banner Countdown",
-  "subtitle": "Baizhu, Ganyu and Kaveh Banner Countdown",
-  "description": "Baizhu, Ganyu and Kaveh Banner Countdown. Genshin Impact 3.6 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Baizhu", "Ganyu", "Kaveh"],
+  "title": "Genshin Impact 3.7 Banner Countdown",
+  "subtitle": "Kirara, Yae Miko and Yoimiya Banner Countdown",
+  "description": "Kirara, Yae Miko and Yoimiya Banner Countdown. Genshin Impact 3.7 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Kirara", "Yae Miko", "Yoimiya"],
   "link": "https://genshin-banner-countdown.netlify.app/",
   "colorPage": "#adc178"
 }
