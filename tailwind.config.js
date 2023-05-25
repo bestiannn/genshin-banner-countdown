@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        wallpaper: "url('/kirara.png')",
+        wallpaper: "url('/kazuha.webp')",
       },
       backgroundPosition: {
-        "center-wallpaper": "left 30% top 25%",
+        "center-wallpaper": "left 30% top 20%",
       },
     },
   },

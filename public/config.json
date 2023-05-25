@@ -1,8 +1,8 @@
 {
   "title": "Genshin Impact 3.7 Banner Countdown",
-  "subtitle": "Kirara, Yae Miko and Yoimiya Banner Countdown",
-  "description": "Kirara, Yae Miko and Yoimiya Banner Countdown. Genshin Impact 3.7 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Kirara", "Yae Miko", "Yoimiya"],
+  "subtitle": "Kaedehara Kazuha and Alhaitham Banner Countdown",
+  "description": "Kaedehara Kazuha and Alhaitham Banner Countdown. Genshin Impact 3.7 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Kaedehara", "Kazuha", "Alhaitham"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#adc178"
+  "colorPage": "#57cc99"
 }
