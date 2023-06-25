@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content="https://genshin-banner-countdown.netlify.app/banner.png" />
+        <meta property="og:image" content="https://genshin-banner-countdown.netlify.app/banner.webp" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
-        <meta property="twitter:image" content="https://genshin-banner-countdown.netlify.app/banner.png" />
+        <meta property="twitter:image" content="https://genshin-banner-countdown.netlify.app/banner.webp" />
         <meta name="google-site-verification" content="zE_yfZY4H-trYpIUae8Z5UDIx86SRJmCu5yEEENhCgQ" />
       </Head>
       <Component {...pageProps} />

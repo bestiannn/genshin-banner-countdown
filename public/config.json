@@ -1,8 +1,8 @@
 {
-  "title": "Genshin Impact 3.7 Banner Countdown",
-  "subtitle": "Kaedehara Kazuha and Alhaitham Banner Countdown",
-  "description": "Kaedehara Kazuha and Alhaitham Banner Countdown. Genshin Impact 3.7 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Kaedehara", "Kazuha", "Alhaitham"],
+  "title": "Genshin Impact 3.8 Banner Countdown",
+  "subtitle": "Eula and Klee Banner Countdown",
+  "description": "Eula and Klee Banner Countdown. Genshin Impact 3.8 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Eula", "Klee"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#57cc99"
+  "colorPage": "#a2d2ff"
 }
