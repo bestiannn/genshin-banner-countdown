@@ -1,8 +1,8 @@
 {
   "title": "Genshin Impact 3.8 Banner Countdown",
-  "subtitle": "Eula and Klee Banner Countdown",
-  "description": "Eula and Klee Banner Countdown. Genshin Impact 3.8 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Eula", "Klee"],
+  "subtitle": "Wanderer and Kokomi Banner Countdown",
+  "description": "Wanderer and Sangonomiya Kokomi Banner Countdown. Genshin Impact 3.8 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Wanderer", "Sangonomiya", "Kokomi"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#a2d2ff"
+  "colorPage": "#abc4ff"
 }
