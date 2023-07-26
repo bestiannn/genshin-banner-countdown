@@ -18,7 +18,7 @@ const Footer = () => {
       <span className="text-justify text-xs font-light md:text-base lg:text-lg">
         This website is an open source project and is not associated with
         HoYoverse or any other company. The information on this website is
-        delivered by unoficial sources. All of these timers are not guaranteed
+        delivered by unofficial sources. All of these timers are not guaranteed
         to be correct and they can be changed at any time. Use this information
         only for reference.
       </span>
