@@ -1,8 +1,8 @@
 {
-  "title": "Genshin Impact 3.8 Banner Countdown",
-  "subtitle": "Wanderer and Kokomi Banner Countdown",
-  "description": "Wanderer and Sangonomiya Kokomi Banner Countdown. Genshin Impact 3.8 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Wanderer", "Sangonomiya", "Kokomi"],
+  "title": "Genshin Impact 4.0 Banner Countdown",
+  "subtitle": "Lyney and Lynette Banner Countdown",
+  "description": "Lyney and Lynette Banner Countdown. Genshin Impact 4.0 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Lyney", "Lynette"],
   "link": "https://genshin-banner-countdown.netlify.app/",
   "colorPage": "#abc4ff"
 }

@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        wallpaper: "url('/wanderer.jpg')",
+        wallpaper: "url('/Lyney.webp')",
       },
       backgroundPosition: {
-        "center-wallpaper": "left 28% top 25%",
+        "center-wallpaper": "left 50% top 20%",
       },
     },
   },
