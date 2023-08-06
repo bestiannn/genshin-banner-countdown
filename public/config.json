@@ -1,8 +1,8 @@
 {
   "title": "Genshin Impact 4.0 Banner Countdown",
-  "subtitle": "Lyney and Lynette Banner Countdown",
-  "description": "Lyney and Lynette Banner Countdown. Genshin Impact 4.0 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Lyney", "Lynette"],
+  "subtitle": "Lyney, Lynette and Yelan Banner Countdown",
+  "description": "Lyney, Lynette and Yelan Banner Countdown. Genshin Impact 4.0 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Lyney", "Lynette", "Yelan"],
   "link": "https://genshin-banner-countdown.netlify.app/",
   "colorPage": "#abc4ff"
 }
