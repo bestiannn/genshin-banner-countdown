@@ -11,7 +11,7 @@ export default function Home({ servers }) {
   setServers(servers);
 
   return (
-    <div className="bg-wallpaper bg-cover bg-fixed bg-center-wallpaper bg-no-repeat">
+    <div className="bg-wallpaper bg-cover bg-fixed bg-center-wallpaper bg-no-repeat bg-sky-600">
       <div className="flex min-h-screen flex-col justify-between gap-20 bg-black bg-opacity-60 text-center text-white">
         <Header />
         <Timers />

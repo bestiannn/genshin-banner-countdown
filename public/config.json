@@ -1,8 +1,8 @@
 {
-  "title": "Genshin Impact 4.0 Banner Countdown",
-  "subtitle": "Freminet, Tartaglia and Zhongli Banner Countdown",
-  "description": "Freminet, Tartaglia and Zhongli Banner Countdown. Genshin Impact 4.0 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Freminet", "Tartaglia", "Zhongli"],
+  "title": "Genshin Impact 4.1 Banner Countdown",
+  "subtitle": "Neuvillette and Hu Tao Banner Countdown",
+  "description": "Neuvillette and Hu Tao Banner Countdown. Genshin Impact 4.1 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Neuvillette", "Hu Tao"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#bbd0ff"
+  "colorPage": "#1976d2"
 }
