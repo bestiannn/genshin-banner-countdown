@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        wallpaper: "url('/Neuvillette.webp')",
+        wallpaper: "url('/Wriothesley.webp')",
       },
       backgroundPosition: {
         "center-wallpaper": "left 48% top 50%",

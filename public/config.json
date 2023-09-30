@@ -1,8 +1,8 @@
 {
   "title": "Genshin Impact 4.1 Banner Countdown",
-  "subtitle": "Neuvillette and Hu Tao Banner Countdown",
-  "description": "Neuvillette and Hu Tao Banner Countdown. Genshin Impact 4.1 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Neuvillette", "Hu Tao"],
+  "subtitle": "Wriothesley and Venti Banner Countdown",
+  "description": "Wriothesley and Venti Banner Countdown. Genshin Impact 4.1 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Wriothesley", "Venti"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#1976d2"
+  "colorPage": "#bde0fe"
 }
