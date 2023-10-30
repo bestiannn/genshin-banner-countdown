@@ -1,8 +1,8 @@
 {
-  "title": "Genshin Impact 4.1 Banner Countdown",
-  "subtitle": "Wriothesley and Venti Banner Countdown",
-  "description": "Wriothesley and Venti Banner Countdown. Genshin Impact 4.1 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Wriothesley", "Venti"],
+  "title": "Genshin Impact 4.2 Banner Countdown",
+  "subtitle": "Furina and Charlotte Banner Countdown",
+  "description": "Furina and Charlotte Banner Countdown. Genshin Impact 4.2 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Furina", "Focalors", "Charlotte"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#bde0fe"
+  "colorPage": "#a2d2ff"
 }
