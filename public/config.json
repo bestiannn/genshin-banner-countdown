@@ -1,8 +1,8 @@
 {
   "title": "Genshin Impact 4.2 Banner Countdown",
-  "subtitle": "Furina and Charlotte Banner Countdown",
-  "description": "Furina and Charlotte Banner Countdown. Genshin Impact 4.2 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Furina", "Focalors", "Charlotte"],
+  "subtitle": "Furina, Baizhu and Charlotte Banner Countdown",
+  "description": "Furina, Baizhu and Charlotte Banner Countdown. Genshin Impact 4.2 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Furina", "Focalors", "Baizhu", "Charlotte"],
   "link": "https://genshin-banner-countdown.netlify.app/",
   "colorPage": "#a2d2ff"
 }
