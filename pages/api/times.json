@@ -1,4 +1,18 @@
 {
+  "4.3-1": {
+    "Asia": {
+      "time": "2023-12-20T22:00:00-05:00",
+      "maintenance": true
+    },
+    "Europe": {
+      "time": "2023-12-20T22:00:00-05:00",
+      "maintenance": true
+    },
+    "America": {
+      "time": "2023-12-20T22:00:00-05:00",
+      "maintenance": true
+    }
+  },
   "4.2-2": {
     "Asia": {
       "time": "2023-11-28T05:00:00-05:00",

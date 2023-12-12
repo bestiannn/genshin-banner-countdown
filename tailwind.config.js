@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        wallpaper: "url('/cyno.webp')",
+        wallpaper: "url('/Roses_and_Muskets.jpg')",
       },
       backgroundPosition: {
-        "center-wallpaper": "left 50% top 35%",
+        "center-wallpaper": "left 50% top 50%",
       },
     },
   },
