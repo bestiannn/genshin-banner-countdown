@@ -1,8 +1,8 @@
 {
   "title": "Genshin Impact 4.3 Banner Countdown",
-  "subtitle": "Kamisato Ayaka and Navia Banner Countdown",
-  "description": "Kamisato Ayaka and Navia Banner Countdown. Genshin Impact 4.3 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Kamisato", "Ayaka", "Navia"],
+  "subtitle": "Chevreuse Raiden Shogun and Yoimiya Banner Countdown",
+  "description": "Chevreuse Raiden Shogun and Yoimiya Banner Countdown. Genshin Impact 4.3 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Chevreuse", "Raiden", "Shogun", "Yoimiya"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#f9dc5c"
+  "colorPage": "#cf5cf9"
 }
