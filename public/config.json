@@ -1,8 +1,8 @@
 {
-  "title": "Genshin Impact 4.3 Banner Countdown",
-  "subtitle": "Chevreuse, Raiden Shogun and Yoimiya Banner Countdown",
-  "description": "Chevreuse, Raiden Shogun and Yoimiya Banner Countdown. Genshin Impact 4.3 Countdown in all servers. Countdown in America, Europe and Asia.",
-  "characters": ["Chevreuse", "Raiden", "Shogun", "Yoimiya"],
+  "title": "Genshin Impact 4.4 Banner Countdown",
+  "subtitle": "Xianyun, Gaming and Nahida Banner Countdown",
+  "description": "Xianyun, Gaming and Nahida Banner Countdown. Genshin Impact 4.4 Countdown in all servers. Countdown in America, Europe and Asia.",
+  "characters": ["Xianyun", "Gaming", "Nahida"],
   "link": "https://genshin-banner-countdown.netlify.app/",
-  "colorPage": "#cf5cf9"
+  "colorPage": "#3bd9c6"
 }

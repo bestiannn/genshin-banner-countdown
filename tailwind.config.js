@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        wallpaper: "url('/Roses_and_Muskets.jpg')",
+        wallpaper: "url('/genshin4.4.jpg')",
       },
       backgroundPosition: {
         "center-wallpaper": "left 50% top 50%",

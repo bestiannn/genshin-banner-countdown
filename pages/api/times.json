@@ -1,4 +1,18 @@
 {
+  "4.4-1": {
+    "Asia": {
+      "time": "2024-01-31T21:00:00-05:00",
+      "maintenance": true
+    },
+    "Europe": {
+      "time": "2024-01-31T21:00:00-05:00",
+      "maintenance": true
+    },
+    "America": {
+      "time": "2024-01-31T21:00:00-05:00",
+      "maintenance": true
+    }
+  },
   "4.3-2": {
     "Asia": {
       "time": "2024-01-09T05:00:00-05:00",
